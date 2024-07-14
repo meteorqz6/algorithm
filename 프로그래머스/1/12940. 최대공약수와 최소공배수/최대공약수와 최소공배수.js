@@ -1,10 +1,5 @@
 function gcd(a, b) {
-    if( a < b) {
-        let temp = a;
-        a = b;
-        b = temp;
-    }
-    
+
     while( b !== 0){
         let temp = b;
         b = a % b;
